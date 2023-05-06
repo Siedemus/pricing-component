@@ -28,6 +28,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: ${({ theme }) => theme.fonts.montS};
+  background-color: ${({theme}) => theme.colors.veryLightBlue};
 }
 /*
   6. Improve media defaults
