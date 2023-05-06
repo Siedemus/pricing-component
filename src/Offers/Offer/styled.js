@@ -119,7 +119,7 @@ const ButtonText = styled.p`
     `}
 `;
 
-const StylledDollar = styled.div`
+const StylledDollar = styled.span`
   font-size: 35px;
 `;
 
