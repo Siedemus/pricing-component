@@ -4,7 +4,6 @@ import {
   SwitchContainer,
   SwitchSlider,
 } from "./styled";
-import { useState } from "react";
 
 export const Switch = ({ toggleChecked, isChecked }) => {
   return (

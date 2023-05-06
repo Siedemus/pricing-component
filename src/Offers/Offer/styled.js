@@ -7,6 +7,7 @@ const OfferContainer = styled.div`
   padding: 45px;
   border-radius: 15px;
   box-shadow: 14px 17px 30px -7px ${({ theme }) => theme.colors.lightBlue};
+  min-width: 355px;
 
   ${({ pro }) =>
     pro &&
@@ -45,11 +46,12 @@ const OfferHeader = styled.h3`
     `}
 `;
 
-const Price = styled.p`
+const Price = styled.div`
   font-size: 70px;
   color: ${({ theme }) => theme.colors.darkBlue};
   display: flex;
   align-items: center;
+  align-self: center;
 
   ${({ pro }) =>
     pro &&

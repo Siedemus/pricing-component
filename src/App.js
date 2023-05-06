@@ -16,7 +16,7 @@ function App() {
     <>
       <Header />
       <Switch toggleChecked={toggleChecked} isChecked={isChecked} />
-      <Offers />
+      <Offers isChecked={isChecked} />
       <Background />
       <Footer />
     </>

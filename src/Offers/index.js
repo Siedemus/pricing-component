@@ -1,19 +1,19 @@
 import { OffersContainer } from "./styled";
 import { Offer } from "./Offer";
 
-export const Offers = () => {
+export const Offers = ({ isChecked }) => {
   return (
     <OffersContainer>
       <Offer
         header={"Basic"}
-        price={"199.99"}
+        price={isChecked ? "19.99" : "199.99"}
         storage={"500 GB Storage"}
         users={"2 Users Allowed"}
         upload={"Send up to 3 GB"}
       ></Offer>
       <Offer
         header={"Professional"}
-        price={"249.99"}
+        price={isChecked ? "24.99" : "249.99"}
         storage={"1 TB storage"}
         users={"5 Users Allowed"}
         upload={"Send up to 10 GB"}
@@ -21,7 +21,7 @@ export const Offers = () => {
       ></Offer>
       <Offer
         header={"Master"}
-        price={"399.99"}
+        price={isChecked ? "39.99" : "399.99"}
         storage={"2 TB storage"}
         users={"10 Users Allowed"}
         upload={"Send up to 20 GB"}
