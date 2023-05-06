@@ -29,6 +29,8 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: ${({ theme }) => theme.fonts.montS};
   background-color: ${({theme}) => theme.colors.veryLightBlue};
+  position: relative;
+  padding: 60px 0 30px 0;
 
   @media (min-width: 1100px) {
     overflow: hidden;
