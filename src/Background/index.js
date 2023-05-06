@@ -5,8 +5,8 @@ import bottom from "../Assets/images/bg-bottom.svg";
 export const Background = () => {
   return (
     <>
-      <Image src={top} top />
-      <Image src={bottom} bottom />
+      <Image alt={"background top image"} src={top} top />
+      <Image alt={"background bottom image"} src={bottom} bottom />
     </>
   );
 };
