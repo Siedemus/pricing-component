@@ -26,7 +26,7 @@ const SwitchSlider = styled.div`
   width: 21px;
   height: 21px;
   border-radius: 15px;
-  margin-left: ${({isChecked}) => isChecked ? "23px" : "0"};
+  margin-left: ${({ isChecked }) => (isChecked ? "23px" : "0")};
   transition: 0.5s;
 `;
 

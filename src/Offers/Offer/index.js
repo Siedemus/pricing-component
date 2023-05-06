@@ -13,7 +13,10 @@ export const Offer = ({ header, price, storage, users, upload, pro, last }) => {
   return (
     <OfferContainer pro={pro} last={last}>
       <OfferHeader pro={pro}>{header}</OfferHeader>
-      <Price pro={pro}><StylledDollar>$</StylledDollar>{price}</Price>
+      <Price pro={pro}>
+        <StylledDollar>$</StylledDollar>
+        {price}
+      </Price>
       <AdventagesContainer pro={pro}>
         <Adventage pro={pro}>{storage}</Adventage>
         <Adventage pro={pro}>{users}</Adventage>

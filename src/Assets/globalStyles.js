@@ -28,7 +28,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: ${({ theme }) => theme.fonts.montS};
-  background-color: ${({theme}) => theme.colors.veryLightBlue};
+  background-color: ${({ theme }) => theme.colors.veryLightBlue};
   position: relative;
   padding: 60px 0 30px 0;
 
