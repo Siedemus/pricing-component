@@ -27,6 +27,7 @@ html, body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: ${({ theme }) => theme.fonts.montS};
 }
 /*
   6. Improve media defaults
